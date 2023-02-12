@@ -1,0 +1,81 @@
+>>> nums=[25,50,20,40,43,19,5]
+>>> nums
+[25, 50, 20, 40, 43, 19, 5]
+>>> nums[0]
+25
+>>> num[6]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'num' is not defined
+>>> nums[6]
+5
+>>> nums[2:]
+[20, 40, 43, 19, 5]
+>>> nums[2:0]
+[]
+>>> nums[2:4]
+[20, 40]
+>>> nums[2:7]
+[20, 40, 43, 19, 5]
+>>> nums[-1:7]
+[5]
+>>> nums[-1:5]
+[]
+>>> nums[-1:2]
+[]
+>>> nums[-1:0]
+[]
+>>> nums[-1:-1]
+[]
+>>> nums[-1:-2]
+[]
+>>> nums[-7:-1]
+[25, 50, 20, 40, 43, 19]
+>>> nums=[25,26,27,46]
+>>> nums
+[25, 26, 27, 46]
+
+
+
+-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*--*-*-*-*-*--*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+>>> name=['Divya','Govind','Hritik','Rupam']
+>>> name
+['Divya', 'Govind', 'Hritik', 'Rupam']
+>>> values=[9.6,'pal',09]
+  File "<stdin>", line 1
+    values=[9.6,'pal',09]
+                       ^
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+>>> values=[9.6,'pal',9]
+>>> values
+[9.6, 'pal', 9]
+>>> mil = [nums,name]
+>>> mil
+[[25, 26, 27, 46], ['Divya', 'Govind', 'Hritik', 'Rupam']]
+>>> nums.append(43)
+>>> nums
+[25, 26, 27, 46, 43]
+>>> nums.insert(2,30)
+>>> nums
+[25, 26, 30, 27, 46, 43]
+>>> nums.remove(25)
+>>> nums
+[26, 30, 27, 46, 43]
+>>> nums.pop(3)
+46
+>>> nums.pop()
+43
+>>> nums
+[26, 30, 27]
+>>> del nums[1:]
+>>> nums
+[26]
+>>> nums.extend([27,28,90,100,89.6])
+>>> nums
+[26, 27, 28, 90, 100, 89.6]
+>>> min(nums)
+26
+>>> max(nums)
+100
+>>> sum(nums)
+360.6
