@@ -1,0 +1,30 @@
+>>> tup = (21,36,1,4,26)
+>>> tup[2]=30
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'tuple' object does not support item assignment
+>>> tup.index(1)
+2
+>>> tup.append(90)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'append'
+>>> values=(9,9.6,'Hritik')
+>>> values
+(9, 9.6, 'Hritik')
+>>> values.type()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'type'
+>>> type(values)
+<class 'tuple'>
+>>> values.pop()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'tuple' object has no attribute 'pop'
+>>> values[2]
+'Hritik'
+###SET
+>>> a = {45,5,7,8,78,95,95,2,2}
+>>> a
+{2, 5, 7, 8, 45, 78, 95}
