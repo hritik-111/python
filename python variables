@@ -1,0 +1,52 @@
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 3+9
+12
+>>> x=3
+>>> x+7
+10
+>>> y=5
+>>> x+y
+8
+>>> x=8
+>>> x+y
+13
+>>> _+7
+20
+>>> name = 'Hritik'
+>>> name
+'Hritik'
+>>> name + 'rocks'
+'Hritikrocks'
+>>> name + ' rocks'
+'Hritik rocks'
+>>> name[0]
+'H'
+>>> name[7]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> name[-1]
+'k'
+>>> name[-6]
+'H'
+>>> name[0:2]
+'Hr'
+>>> name[1:4]
+'rit'
+>>> name[1:]
+'ritik'
+>>> name[:5]
+'Hriti'
+>>> name[2:10]
+'itik'
+>>> name[0]='w'
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> 'I am' + name
+'I amHritik'
+>>> 'I am hr' + name[2:]
+'I am hritik'
+>>> len(name)
+6
+>>>
